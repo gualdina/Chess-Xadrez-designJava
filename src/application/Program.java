@@ -5,11 +5,10 @@ import chess.ChessMatch;
 
 public class Program {
 
-	public static void main(String[] args) {
-
+public static void main(String[] args) {
+		
 		ChessMatch chessMatch = new ChessMatch();
-//receber as peças da partida
-		UI.printBoard(chessMacth.getPieces());
+		//receber as peças da partida
+		UI.printBoard(chessMatch.getPieces());
 	}
-
 }
