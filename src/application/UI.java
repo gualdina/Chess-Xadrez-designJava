@@ -1,4 +1,7 @@
 package application;
+
+import chess.ChessPiece;
+
 //user interface
 public class UI {
 
