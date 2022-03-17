@@ -19,7 +19,7 @@ public class ChessMatch {
 		for(int i=0; i<board.getRows();i++) {
 			//percurrer as colunas
 			for(int j=0;i<board.getColumns();j++) {
-				mat[i][j]=  board.piece(i,j);
+				mat[i][j]= (ChessPiece) board.piece(i,j);
 					
 						}
 		}
